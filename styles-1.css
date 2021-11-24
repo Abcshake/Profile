@@ -66,6 +66,7 @@ img{
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-top: 20px;
 }
 
 .about-content{
@@ -79,5 +80,6 @@ img{
 
 .button{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    padding: 10px;
 }

@@ -72,8 +72,8 @@ img{
     display: flex;
     background-image: url(./assets/background-2426328_1920.jpg);
     min-height: 100vh;
+    min-width: 100%;
     background-size: cover;
-    background-repeat: no-repeat;
     background-attachment: fixed;
     justify-content: center;
     color: white;
@@ -202,6 +202,10 @@ img{
     background-color: #0C1D24;
 }
 
+.logo{
+    border-radius: 50%;
+}
+
 .bottom-nav-buttons{
     display: flex;
     flex-direction: row;
@@ -211,6 +215,8 @@ img{
 }
 
 /* Responsive rules */
+
+
 
 @media (max-width: 680px) {
     h1,h2{
@@ -253,5 +259,15 @@ img{
     }
     .box{
         width: 100%;
+    }
+    @media (max-width: 412px) {
+        h1,h2{
+            font-size: 35px;
+        }
+    
+        .gallery{
+            width: calc(100% - 10px);
+        }
+    
     }
 }
