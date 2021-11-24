@@ -34,6 +34,7 @@ a{
     margin: 20px;
 }
 
+
 p{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -74,9 +75,13 @@ img{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    justify-content: space-around;
+    justify-content: center;
     color: white;
     padding: 30px;
+}
+
+.logo-button h1{
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .title{
@@ -91,6 +96,11 @@ img{
     top:10px;
 }
 
+.nav-buttons a:hover{
+    color: cyan;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #33ffff;
+}
 
 /*About section styles*/
 
@@ -140,19 +150,6 @@ img{
     justify-content: space-around;
 
 }
-
-/* .gallery-pics img{
-    max-width: calc(100%/3);
-    max-height: calc(100vh/2);
-    padding: 20px;
-
-}
-
-.gallery-pic2 img{
-    max-width: calc(100%/2);
-    padding: 20px;
-
-} */
 
 
 .container-title{
@@ -211,4 +208,50 @@ img{
     width: 80%;
     justify-content: center;
     border-bottom: 2px solid white;
+}
+
+/* Responsive rules */
+
+@media (max-width: 680px) {
+    h1,h2{
+        font-size: 50px;
+    }
+    .logo-button{
+        display: flex;
+        justify-content: end;
+        margin: 0px;
+    }
+    .nav-buttons{
+        display: flex;
+        flex-direction: column;
+        background-color: grey;
+        height: fit-content;
+    }
+
+    .about-content-pic{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+    .about-content{
+        width: 100%;
+    }
+
+    .about-pic{
+        width: 100%;
+    }
+
+    .gallery-pics p, .gallery-pic2 p{
+        padding: 10px;
+    }
+
+    .container-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .box{
+        width: 100%;
+    }
 }
