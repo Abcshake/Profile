@@ -70,11 +70,12 @@ img{
 /*Hero image, title and nav button style*/
 .logo-button{
     display: flex;
-    background-image: url(./assets/background-2426328_1920.jpg);
+    background-image: url(./assets/stars_mountains.jpeg);
     min-height: 100vh;
     min-width: 100%;
     background-size: cover;
     background-attachment: fixed;
+    background-position: center;
     justify-content: center;
     color: white;
     padding: 30px;
@@ -107,6 +108,7 @@ img{
 .about-content-pic {
     display: flex;
     justify-content: space-between;
+   
 }
 
 .about-content{
@@ -123,6 +125,7 @@ img{
     object-fit: cover;
     align-self: center;
     border-radius: 50%;
+    margin-top: 20px;
 }
 
 
