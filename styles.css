@@ -124,8 +124,9 @@ img{
     width: 50%;
     object-fit: cover;
     align-self: center;
-    border-radius: 50%;
+    border-radius: 40%;
     margin-top: 20px;
+    object-position: center;
 }
 
 
