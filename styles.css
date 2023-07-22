@@ -62,7 +62,7 @@ img{
 /*wrapper for bleeding edge effect*/
 
 .wrapper {
-    max-width: 1200px;
+    max-width: 1400px;
     width: 80%;
     margin: 0 auto;
 }
@@ -126,7 +126,7 @@ img{
     align-self: center;
     border-radius: 40%;
     margin-top: 20px;
-    object-position: center;
+    object-position: 50% 75%;
 }
 
 
